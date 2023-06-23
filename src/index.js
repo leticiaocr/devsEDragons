@@ -16,31 +16,5 @@ const personagens = [magoAntonio, magaJulia, arqueiroBruno,arqueiroMagoChico]
 
 new PersonagemView(personagens).render()
 
-console.log(personagemJose)
+console.log(Personagem.verificarVencedor(arqueiroBruno, magoAntonio))
 
-
-
-
-
-
-
-
-
-
-
-/*a classe é um modelo, quando criamos um objeto com essa classe, ele se torna
-uma instância daquela classe. 
-
-Ou seja: Personagem = classe 
-personagemLeticia = instância da classe Personagem 
-this = isto 
-
-CONSTRUCTOR => é um método especial que só é executado quando uma instância é criada. (dentro de uma classe só pode ter um método constructor)
-//HERANÇA 
-
-extends = está dizendo que margo herda personagem etrabalha em conjunto com o super 
-o super envia os valores passados por parâmetro para a classe pai
-
-POLIMORFISMO => A capacidade de objetos de classs diferentes, responderem a mesma mensagem de formas diferentes. Por exemplo
-no mago.js a classe mago responde a obter insignia de forma diferente que as outras classes. 
-*/ 
