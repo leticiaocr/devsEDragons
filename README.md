@@ -26,7 +26,7 @@ Aqui estão as tecnologias utilizadas neste projeto.
 
 
 
-![Tela]()
+![Tela](https://github.com/leticiaocr/devsEDragons/blob/main/screen-capture%20(1)%20(1).gif)
 
 
 
