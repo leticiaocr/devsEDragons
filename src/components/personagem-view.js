@@ -64,7 +64,7 @@ criaPersonagem = (personagem) => {
     </div>
     `
 
-    /*const containerLevel = personagemLI.querySelector('.level')
+    const containerLevel = personagemLI.querySelector('.level')
     containerLevel.onclick = (evt) => {
         evt.stopPropagation()
 
@@ -73,7 +73,7 @@ criaPersonagem = (personagem) => {
         if (evt.target.classList.contains('aumentar-level')) personagem.aumentarLevel()
 
         this.render()
-    }*/
+    }
 
 
     personagemLI.onclick = () => {
